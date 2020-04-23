@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ShopMVC:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb41b997-4197-44a4-955b-8eab38006818" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.45.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/addGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/err.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/static/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/static/usermgr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/suc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/updateGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/wel.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebContent/welajax.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/META-INF/ShopMVC.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/META-INF/ShopMVC.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/factory/MyObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/mapper/GoodsMainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/po/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/test/MybatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/utils/MybatisUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/AspectJTest/MyAspect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/AspectJTest/MyAspectTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/AspectJTest/myAspectXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/controller/GoodsServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/controller/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/jdbc/TestJdbcTemplate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/jdbc/jdbcXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/model/ConnDBMySql.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/model/GoodsBean.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/model/GoodsDAO.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/model/GoodsDAOImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/myAspectXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/test/SpringIDTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/jdbcXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/mappers/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/myAspectXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/test/TestDB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/lib/gson-2.8.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/lib/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/lib/junit.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.45.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/WEB-INF/lib/gson-2.8.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/WEB-INF/lib/mysql-connector-java-5.1.45.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/addGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/err.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/static/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/static/usermgr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/suc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/updateGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/wel.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/welajax.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/addGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/err.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/static/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/static/usermgr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/suc.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/updateGoods.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/wel.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/welajax.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/jdbcXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/mappers/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/myAspectXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/factory/MyObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/mapper/GoodsMainMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/po/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/demo/utils/MybatisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/AspectJTest/MyAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/AspectJTest/MyAspectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/AspectJTest/myAspectXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/controller/GoodsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/jdbc/TestJdbcTemplate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/jdbc/jdbcXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/model/ConnDBMySql.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/model/GoodsBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/model/GoodsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/model/GoodsDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/myAspectXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/service/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sp/test/SpringIDTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbcXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myAspectXML.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/TestDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
+        <option value="spring-beans.schema" />
+        <option value="XSLT Stylesheet" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\IDEA_students_workspace\ShopMVC\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\installtools\apache-maven\LocalWarehouse" />
+        <option name="mavenHome" value="D:/installtools/apache-maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\installtools\apache-maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZTpM1fWRocoFiaCDk4dXlxR6vU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$/.idea/libraries" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.22643979" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IDEA_students_workspace\ShopMVC\src" />
+      <recent name="E:\IDEA_students_workspace\ShopMVC\resources" />
+      <recent name="E:\IDEA_students_workspace\ShopMVC\src\com\demo\mapper" />
+      <recent name="E:\IDEA_students_workspace\ShopMVC\resources\mappers" />
+      <recent name="E:\IDEA_students_workspace\ShopMVC\src\com\sp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.demo.po" />
+      <recent name="com.demo.factory" />
+      <recent name="test" />
+      <recent name="com.sp.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IDEA_students_workspace\ShopMVC\src\com\demo\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTest.findAllGoodsTest">
+    <configuration name="MybatisTest.addGoodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.MybatisTest" />
+      <option name="METHOD_NAME" value="addGoodsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.deleteGoodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.MybatisTest" />
+      <option name="METHOD_NAME" value="deleteGoodsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.findAllGoodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.MybatisTest" />
+      <option name="METHOD_NAME" value="findAllGoodsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.findGoodsByNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.MybatisTest" />
+      <option name="METHOD_NAME" value="findGoodsByNameTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.updateGoodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.demo.test" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.test.MybatisTest" />
+      <option name="METHOD_NAME" value="updateGoodsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="ShopMVC" />
+      <option name="PACKAGE_NAME" value="com.sp.jdbc" />
+      <option name="MAIN_CLASS_NAME" value="com.sp.jdbc.TestJdbcTemplate" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.31" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8082/ShopMVC_war_exploded/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="ShopMVC:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/ShopMVC_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ShopMVC_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64798" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ShopMVC:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="JUnit.MybatisTest.findGoodsByNameTest" />
+      <item itemvalue="JUnit.MybatisTest.addGoodsTest" />
+      <item itemvalue="JUnit.MybatisTest.updateGoodsTest" />
+      <item itemvalue="JUnit.MybatisTest.deleteGoodsTest" />
+      <item itemvalue="JUnit.MybatisTest.findAllGoodsTest" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.31" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest.findAllGoodsTest" />
+        <item itemvalue="JUnit.MybatisTest.deleteGoodsTest" />
+        <item itemvalue="JUnit.MybatisTest.updateGoodsTest" />
+        <item itemvalue="JUnit.MybatisTest.addGoodsTest" />
+        <item itemvalue="JUnit.MybatisTest.findGoodsByNameTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb41b997-4197-44a4-955b-8eab38006818" name="Default Changelist" comment="" />
+      <created>1584872886413</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584872886413</updated>
+      <workItem from="1584873024472" duration="5985000" />
+      <workItem from="1584930597171" duration="14639000" />
+      <workItem from="1584973353411" duration="5788000" />
+      <workItem from="1585018078732" duration="2575000" />
+      <workItem from="1585033904749" duration="847000" />
+      <workItem from="1585109848990" duration="2379000" />
+      <workItem from="1585138561515" duration="1852000" />
+      <workItem from="1585742153447" duration="363000" />
+      <workItem from="1585829869976" duration="11657000" />
+      <workItem from="1585879001400" duration="4245000" />
+      <workItem from="1585892280721" duration="7615000" />
+      <workItem from="1586143315680" duration="1715000" />
+      <workItem from="1586166614166" duration="816000" />
+      <workItem from="1586346422711" duration="136000" />
+      <workItem from="1586398053331" duration="12590000" />
+      <workItem from="1586410962884" duration="200000" />
+      <workItem from="1586412913707" duration="1513000" />
+      <workItem from="1586414500982" duration="2385000" />
+      <workItem from="1586483863136" duration="1671000" />
+      <workItem from="1586486300316" duration="1637000" />
+      <workItem from="1587096526857" duration="586000" />
+      <workItem from="1587353448017" duration="5553000" />
+      <workItem from="1587456932035" duration="6419000" />
+      <workItem from="1587519226324" duration="5397000" />
+      <workItem from="1587531352721" duration="5294000" />
+      <workItem from="1587555317146" duration="139000" />
+      <workItem from="1587603297933" duration="968000" />
+    </task>
+    <task id="LOCAL-00001" summary="第一次提交Mybaits。xml">
+      <created>1587603865835</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587603865835</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一次提交Mybaits。xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一次提交Mybaits。xml" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="550" y="33" key="#HTTP_Proxy" timestamp="1587360644483">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="33" key="#HTTP_Proxy/0.0.1366.728@0.0.1366.728" timestamp="1587360644483" />
+    <state x="550" y="13" key="#Inspections" timestamp="1587362371768">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="550" y="13" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1587362371767" />
+    <state x="275" y="0" width="816" height="728" key="#Intentions" timestamp="1585842838510">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="0" width="816" height="728" key="#Intentions/0.0.1366.728@0.0.1366.728" timestamp="1585842838510" />
+    <state x="275" y="22" key="#Project_Structure" timestamp="1584931648326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1584931648326" />
+    <state x="521" y="1" key="#TestJdbcTemplate.addGoodsTest" timestamp="1585846231448">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="521" y="1" key="#TestJdbcTemplate.addGoodsTest/0.0.1366.728@0.0.1366.728" timestamp="1585846231448" />
+    <state x="521" y="1" key="#TestJdbcTemplate.addGoodsTest_(1)" timestamp="1585845670851">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="521" y="1" key="#TestJdbcTemplate.addGoodsTest_(1)/0.0.1366.728@0.0.1366.728" timestamp="1585845670851" />
+    <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585846256193">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="15" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585846256193" />
+    <state x="700" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585844747301">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="700" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1585844747301" />
+    <state x="806" y="41" key="#com.intellij.ide.util.MemberChooser" timestamp="1587457444278">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="806" y="41" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1587457444278" />
+    <state x="275" y="143" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1585846252088">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="143" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1585846252088" />
+    <state x="603" y="288" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath" timestamp="1585021015526">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="603" y="288" key="#com.intellij.javaee.module.view.common.J2EE.J2EEDeploymentDescriptorLocationPanel.changeDDPath/0.0.1366.728@0.0.1366.728" timestamp="1585021015526" />
+    <state x="635" y="270" key="#com.intellij.javaee.module.view.web.EditWebRootDialog" timestamp="1584879245390">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="635" y="270" key="#com.intellij.javaee.module.view.web.EditWebRootDialog/0.0.1366.728@0.0.1366.728" timestamp="1584879245390" />
+    <state x="514" y="0" key="CommitChangelistDialog2" timestamp="1587604456451">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="514" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587604456451" />
+    <state x="714" y="79" key="FileChooserDialogImpl" timestamp="1587603381496">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="714" y="79" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587603381496" />
+    <state width="905" height="180" key="GridCell.Tab.0.bottom" timestamp="1587528331354">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587528331354" />
+    <state width="905" height="180" key="GridCell.Tab.0.center" timestamp="1587528331354">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587528331354" />
+    <state width="905" height="180" key="GridCell.Tab.0.left" timestamp="1587528331353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587528331353" />
+    <state width="905" height="180" key="GridCell.Tab.0.right" timestamp="1587528331354">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587528331354" />
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1584953379077">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584953379077" />
+    <state width="1323" height="222" key="GridCell.Tab.1.center" timestamp="1584953379075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584953379074" />
+    <state width="1323" height="222" key="GridCell.Tab.1.left" timestamp="1584953379073">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584953379073" />
+    <state width="1323" height="222" key="GridCell.Tab.1.right" timestamp="1584953379075">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="222" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584953379075" />
+    <state width="497" height="166" key="GridCell.Tab.2.bottom" timestamp="1584953377828">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="497" height="166" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584953377828" />
+    <state width="497" height="166" key="GridCell.Tab.2.center" timestamp="1584953377827">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="497" height="166" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1584953377827" />
+    <state width="497" height="166" key="GridCell.Tab.2.left" timestamp="1584953377826">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="497" height="166" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1584953377826" />
+    <state width="497" height="166" key="GridCell.Tab.2.right" timestamp="1584953377827">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="497" height="166" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1584953377827" />
+    <state x="605" y="65" width="721" height="605" key="NewModule_or_Project.wizard" timestamp="1585138869119">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="605" y="65" width="721" height="605" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1585138869119" />
+    <state x="391" y="6" width="916" height="722" key="SettingsEditor" timestamp="1587603359990">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="391" y="6" width="916" height="722" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587603359990" />
+    <state x="176" y="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587456998182">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="176" y="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1587456998182" />
+    <state x="36" y="0" key="new project wizard" timestamp="1587521878219">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="36" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1587521878219" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587461492769">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587461492769" />
+    <state x="533" y="58" key="spring file set editor" timestamp="1585896397682">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="533" y="58" key="spring file set editor/0.0.1366.728@0.0.1366.728" timestamp="1585896397682" />
+  </component>
+</project>

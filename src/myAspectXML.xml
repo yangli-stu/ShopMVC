@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 目标类 -->
+    <bean id="goodsDAO" class="com.sp.model.GoodsDAOImpl"></bean>
+    <!-- 切面 -->
+    <bean id="myAspect" class="com.sp.AspectJTest.MyAspect"></bean>
+    <!-- AOP编程 -->
+    <aop:config>
+        <!-- 配置切面 -->
+        <aop:aspect ref="myAspect">
+            <!-- 配置切入点，通知最后增强哪些方法 -->
+            <aop:pointcut id="myPointCut" expression="execution(* com.sp.model.*.*(..))"/>
+            <!-- 关联通知Advie 和 切入点pointCut -->
+            <!-- 前置通知 -->
+            <aop:before method="myBefore" pointcut-ref="myPointCut"></aop:before>
+            <!-- 后置通知 -->
+            <aop:after-returning method="myAfterReturning" pointcut-ref="myPointCut" returning="returnVal"></aop:after-returning>
+            <!-- 环绕通知 -->
+            <aop:around method="myAround" pointcut-ref="myPointCut"></aop:around>
+            <!-- 异常通知 -->
+            <aop:after-throwing method="myAfterThrowing" pointcut-ref="myPointCut" throwing="e"></aop:after-throwing>
+            <!-- 最终通知 -->
+            <aop:after method="myAfter" pointcut-ref="myPointCut"></aop:after>
+        </aop:aspect>
+    </aop:config>
+</beans>

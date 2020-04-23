@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespace表示命名空间 -->
+<mapper namespace="com.demo.mapper.GoodsMainMapper">
+    <!--根据商品编号获取商品信息 -->
+	<select id="findGoodsById" parameterType="Long"
+		resultType="com.demo.po.Goods">
+		select * from goods where goodsid = #{goodsid}
+	</select>
+	
+	<!--根据商品名模糊查询商品信息列表-->
+	<select id="findGoodsByName" parameterType="String"
+	    resultType="com.demo.po.Goods">
+ select * from goods where goodsname like '%${value}%'
+
+	</select>
+	
+	<!-- 添加商品信息 -->
+	<insert id="addGoods" parameterType="com.demo.po.Goods">
+	    insert into goods(goodsname,goodstype)
+	    values(#{goodsname},#{goodstype})
+	</insert>
+	
+	<!-- 更新商品信息 -->
+	<update id="updateGoods" parameterType="com.demo.po.Goods">
+	    update goods set
+	    goodsname=#{goodsname},goodstype=#{goodstype}
+	    where goodsid=#{goodsid}
+	</update>
+	
+	<!-- 删除商品信息 -->
+	<delete id="deleteGoods" parameterType="Long">
+	    delete from goods where goodsid=#{goodsid}
+	</delete>
+</mapper>
