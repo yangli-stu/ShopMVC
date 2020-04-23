@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://D:/installtools/gson-2.8.0.jar!/" />
+    <libelement value="jar://D:/installtools/mysql-connector-java-5.1.45.jar!/" />
+    <conelement value="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0" />
+    <conelement value="org.eclipse.jst.j2ee.internal.web.container" />
+    <conelement value="org.eclipse.jst.j2ee.internal.module.container" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="web" name="Web">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/WebContent" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/WebContent" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="ApplicationContext" removed="false">
+          <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/com/sp/jdbc/jdbcXML.xml</file>
+          <file>file://$MODULE_DIR$/src/com/sp/AspectJTest/myAspectXML.xml</file>
+          <file>file://$MODULE_DIR$/resources/myAspectXML.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/build/classes/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/jdbcXML.xml</file>
+          <file>file://$MODULE_DIR$/src/com/sp/jdbc/jdbcXML.xml</file>
+        </fileset>
+        <fileset id="fileset3" name="Spring Application Context (2)" removed="false">
+          <file>file://$MODULE_DIR$/src/com/sp/AspectJTest/myAspectXML.xml</file>
+        </fileset>
+        <fileset id="fileset4" name="Spring Application Context (3)" removed="false">
+          <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/com/sp/jdbc/jdbcXML.xml</file>
+          <file>file://$MODULE_DIR$/src/jdbcXML.xml</file>
+          <file>file://$MODULE_DIR$/src/com/sp/myAspectXML.xml</file>
+          <file>file://$MODULE_DIR$/src/com/sp/AspectJTest/myAspectXML.xml</file>
+          <file>file://$MODULE_DIR$/src/myAspectXML.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+    <facet type="web" name="Web2">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/web/WEB-INF/web.xml" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/web" relative="/" />
+        </webroots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/resources" type="java-resource" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="module-library" exported="">
+      <library name="gson-2.8.0.jar">
+        <CLASSES>
+          <root url="jar://D:/installtools/gson-2.8.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="mysql-connector-java-5.1.45.jar">
+        <CLASSES>
+          <root url="jar://D:/installtools/mysql-connector-java-5.1.45.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="junit5">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/lib/junit.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="lib" level="project" />
+    <orderEntry type="library" exported="" name="servlet-api" level="project" />
+    <orderEntry type="library" exported="" name="junit-4.12" level="project" />
+    <orderEntry type="library" exported="" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" exported="" name="spring-context-5.0.4.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="hamcrest-core-1.3" level="project" />
+    <orderEntry type="library" exported="" name="spring-aop-5.0.4.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-jdbc-5.0.4.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="mysql-connector-java-5.1.45" level="project" />
+    <orderEntry type="library" exported="" name="spring-aspects-5.0.4.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="spring-aspects-5.0.4.RELEASE1" level="project" />
+    <orderEntry type="library" exported="" name="aopalliance-1.0" level="project" />
+    <orderEntry type="library" exported="" name="aspectjweaver-1.8.10" level="project" />
+    <orderEntry type="library" exported="" name="cloning-1.9.2" level="project" />
+    <orderEntry type="library" exported="" name="mybatis" level="project" />
+    <orderEntry type="library" exported="" name="Statistic-3.8.1" level="project" />
+    <orderEntry type="library" exported="" name="free-idea-mybatis-2019.12.18" level="project" />
+    <orderEntry type="library" exported="" name="mybatis-generator-core-1.4.0" level="project" />
+    <orderEntry type="library" exported="" name="mybatis-generator-lombok-plugin-1.0" level="project" />
+    <orderEntry type="library" exported="" name="gene-plugin-1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" exported="" name="objenesis-2.1" level="project" />
+    <orderEntry type="library" exported="" name="searchableOptions-2019.12.18" level="project" />
+    <orderEntry type="library" name="mybatis-3.4.5" level="project" />
+  </component>
+</module>

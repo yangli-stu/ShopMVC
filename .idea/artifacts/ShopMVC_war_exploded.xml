@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ShopMVC:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ShopMVC" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="gson-2.8.0.jar" module-name="ShopMVC" />
+          <element id="library" level="module" name="mysql-connector-java-5.1.45.jar" module-name="ShopMVC" />
+          <element id="library" level="module" name="junit5" module-name="ShopMVC" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ShopMVC/web/Web" />
+    </root>
+  </artifact>
+</component>
