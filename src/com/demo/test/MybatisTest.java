@@ -130,4 +130,23 @@ public class MybatisTest {
         sqlSession.close();
     }
 
+
+    @Test
+    public void findGoodsByNameAndTypeTest() {
+        // 获取SqlSession
+        SqlSession sqlSession = MybatisUtils.getSession();
+        Goods good = new Goods();
+//		customer.setUsername("z");
+//		customer.setJobs("student");
+        // SqlSession执行映射文件中定义的SQL，并返回映射结果
+        List<Goods> goods = sqlSession.selectList("com.demo.mapper"
+                + ".GoodsMainMapper.findGoodsByNameAndType", good);
+        for (Goods go : goods) {
+            //打印输出结果集
+            System.out.println(go);
+        }
+        // 关闭SqlSession
+        sqlSession.close();
+    }
+
 }

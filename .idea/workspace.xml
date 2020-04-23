@@ -7,113 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb41b997-4197-44a4-955b-8eab38006818" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/.jsdtscope" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/gson-2.8.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/WEB-INF/lib/mysql-connector-java-5.1.45.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/addGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/err.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/static/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/static/usermgr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/suc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/updateGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/wel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebContent/welajax.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/META-INF/ShopMVC.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/META-INF/ShopMVC.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/factory/MyObjectFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/mapper/GoodsMainMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/po/Goods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/test/MybatisTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/utils/MybatisUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/AspectJTest/MyAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/AspectJTest/MyAspectTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/AspectJTest/myAspectXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/controller/GoodsServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/controller/LoginServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/jdbc/TestJdbcTemplate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/jdbc/jdbcXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/model/ConnDBMySql.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/model/GoodsBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/model/GoodsDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/model/GoodsDAOImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/myAspectXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/service/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/test/SpringIDTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/jdbcXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/mappers/GoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/myAspectXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/test/TestDB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/lib/gson-2.8.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/lib/gson-2.8.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/lib/junit.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.45.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/WEB-INF/lib/gson-2.8.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/WEB-INF/lib/mysql-connector-java-5.1.45.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/addGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/err.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/static/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/static/usermgr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/suc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/updateGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/wel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/web.xml/welajax.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/addGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/err.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/static/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/static/usermgr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/suc.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/updateGoods.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/wel.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/welajax.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/jdbcXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/mappers/GoodsMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/myAspectXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/factory/MyObjectFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/mapper/GoodsMainMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/po/Goods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/demo/utils/MybatisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/AspectJTest/MyAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/AspectJTest/MyAspectTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/AspectJTest/myAspectXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/controller/GoodsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/controller/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/jdbc/TestJdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/jdbc/jdbcXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/model/ConnDBMySql.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/model/GoodsBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/model/GoodsDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/model/GoodsDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/myAspectXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sp/test/SpringIDTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jdbcXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myAspectXML.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/TestDB.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/mapper/GoodsMainMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/mapper/GoodsMainMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/test/MybatisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/demo/test/MybatisTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/jdbc/TestJdbcTemplate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/jdbc/TestJdbcTemplate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/model/GoodsDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/com/sp/model/GoodsDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/jdbcXML.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ShopMVC_war_exploded/WEB-INF/classes/jdbcXML.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/mapper/GoodsMainMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/mapper/GoodsMainMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demo/test/MybatisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demo/test/MybatisTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +86,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.22643979" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -205,18 +106,34 @@
       <recent name="E:\IDEA_students_workspace\ShopMVC\src\com\demo\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisTest.findAllGoodsTest">
-    <configuration name="MybatisTest.addGoodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MybatisTest.findGoodsByNameAndTypeTest">
+    <configuration name="MyAspectTest.jdbcXMLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopMVC" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.demo.test.*" />
+          <option name="PATTERN" value="com.sp.AspectJTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.demo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.MybatisTest" />
-      <option name="METHOD_NAME" value="addGoodsTest" />
+      <option name="PACKAGE_NAME" value="com.sp.AspectJTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sp.AspectJTest.MyAspectTest" />
+      <option name="METHOD_NAME" value="jdbcXMLTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyAspectTest.myAspectXMLTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ShopMVC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sp.AspectJTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sp.AspectJTest" />
+      <option name="MAIN_CLASS_NAME" value="com.sp.AspectJTest.MyAspectTest" />
+      <option name="METHOD_NAME" value="myAspectXMLTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -254,7 +171,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MybatisTest.findGoodsByNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisTest.findGoodsByNameAndTypeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ShopMVC" />
       <extension name="coverage">
         <pattern>
@@ -264,23 +181,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.demo.test" />
       <option name="MAIN_CLASS_NAME" value="com.demo.test.MybatisTest" />
-      <option name="METHOD_NAME" value="findGoodsByNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MybatisTest.updateGoodsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ShopMVC" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.demo.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.demo.test" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.test.MybatisTest" />
-      <option name="METHOD_NAME" value="updateGoodsTest" />
+      <option name="METHOD_NAME" value="findGoodsByNameAndTypeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -374,20 +275,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.Unnamed" />
-      <item itemvalue="JUnit.MybatisTest.findGoodsByNameTest" />
-      <item itemvalue="JUnit.MybatisTest.addGoodsTest" />
-      <item itemvalue="JUnit.MybatisTest.updateGoodsTest" />
       <item itemvalue="JUnit.MybatisTest.deleteGoodsTest" />
       <item itemvalue="JUnit.MybatisTest.findAllGoodsTest" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.31" />
+      <item itemvalue="JUnit.MybatisTest.findGoodsByNameAndTypeTest" />
+      <item itemvalue="JUnit.MyAspectTest.myAspectXMLTest" />
+      <item itemvalue="JUnit.MyAspectTest.jdbcXMLTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MybatisTest.findGoodsByNameAndTypeTest" />
+        <item itemvalue="JUnit.MyAspectTest.jdbcXMLTest" />
+        <item itemvalue="JUnit.MyAspectTest.myAspectXMLTest" />
         <item itemvalue="JUnit.MybatisTest.findAllGoodsTest" />
         <item itemvalue="JUnit.MybatisTest.deleteGoodsTest" />
-        <item itemvalue="JUnit.MybatisTest.updateGoodsTest" />
-        <item itemvalue="JUnit.MybatisTest.addGoodsTest" />
-        <item itemvalue="JUnit.MybatisTest.findGoodsByNameTest" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +345,7 @@
       <workItem from="1587519226324" duration="5397000" />
       <workItem from="1587531352721" duration="5294000" />
       <workItem from="1587555317146" duration="139000" />
-      <workItem from="1587603297933" duration="968000" />
+      <workItem from="1587603297933" duration="4521000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交Mybaits。xml">
       <created>1587603865835</created>
@@ -453,7 +354,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587603865835</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第二次操作，提交整个项目文件">
+      <created>1587604477772</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587604477772</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +380,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交Mybaits。xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="第一次提交Mybaits。xml" />
+    <MESSAGE value="第二次操作，提交整个项目文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次操作，提交整个项目文件" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -532,22 +441,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="714" y="79" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587603381496" />
-    <state width="905" height="180" key="GridCell.Tab.0.bottom" timestamp="1587528331354">
+    <state x="685" y="240" width="273" height="288" key="Github.ShareDialog" timestamp="1587604902669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587528331354" />
-    <state width="905" height="180" key="GridCell.Tab.0.center" timestamp="1587528331354">
+    <state x="685" y="240" width="273" height="288" key="Github.ShareDialog/0.0.1366.728@0.0.1366.728" timestamp="1587604902669" />
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom" timestamp="1587607544766">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587528331354" />
-    <state width="905" height="180" key="GridCell.Tab.0.left" timestamp="1587528331353">
+    <state width="1323" height="180" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587607544766" />
+    <state width="1323" height="180" key="GridCell.Tab.0.center" timestamp="1587607544765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587528331353" />
-    <state width="905" height="180" key="GridCell.Tab.0.right" timestamp="1587528331354">
+    <state width="1323" height="180" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587607544765" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left" timestamp="1587607544765">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587528331354" />
+    <state width="1323" height="180" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587607544765" />
+    <state width="1323" height="180" key="GridCell.Tab.0.right" timestamp="1587607544765">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="180" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587607544765" />
     <state width="1323" height="222" key="GridCell.Tab.1.bottom" timestamp="1584953379077">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -584,10 +497,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="605" y="65" width="721" height="605" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1585138869119" />
-    <state x="391" y="6" width="916" height="722" key="SettingsEditor" timestamp="1587603359990">
+    <state x="391" y="6" width="916" height="722" key="SettingsEditor" timestamp="1587604797496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="391" y="6" width="916" height="722" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587603359990" />
+    <state x="391" y="6" width="916" height="722" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1587604797496" />
+    <state x="408" y="82" key="Vcs.Push.Dialog.v2" timestamp="1587605127038">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="408" y="82" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587605127038" />
     <state x="176" y="260" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587456998182">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

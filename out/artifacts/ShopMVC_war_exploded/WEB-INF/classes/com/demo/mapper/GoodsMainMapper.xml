@@ -33,4 +33,16 @@
 	<delete id="deleteGoods" parameterType="Long">
 	    delete from goods where goodsid=#{goodsid}
 	</delete>
+
+	<!-- if语句查询 -->
+	<select id="findGoodsByNameAndType" parameterType="com.demo.po.Goods"
+			resultType="com.demo.po.Goods">
+	select * from goods where 1=1
+	<if test="goodsname !=null and goodstype !=''">
+		and username like concat('%',#{username},'%')
+	</if> <if test="goodsname !=null and goodstype !=''">
+	and goodstype= #{goodstype}
+</if>
+	</select>
+
 </mapper>
